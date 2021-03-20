@@ -209,7 +209,9 @@ def delete_middle(input_list):
 
     """
 
-    pass
+    del input_list[2:-2]
+
+    return None
 
 
 # This is the part were we actually run the doctests.
